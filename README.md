@@ -74,14 +74,14 @@ Copy `SKILL.md` into your Claude Code skills directory:
 ```bash
 mkdir -p ~/.claude/skills/ley-datos-chile
 curl -o ~/.claude/skills/ley-datos-chile/SKILL.md \
-  https://raw.githubusercontent.com/uhartharper/ley-datos-chile/main/SKILL.md
+  https://raw.githubusercontent.com/carlosuhart/ley-datos-chile/main/SKILL.md
 ```
 
 **Windows (PowerShell)**
 ```powershell
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills\ley-datos-chile"
 Invoke-WebRequest `
-  -Uri "https://raw.githubusercontent.com/uhartharper/ley-datos-chile/main/SKILL.md" `
+  -Uri "https://raw.githubusercontent.com/carlosuhart/ley-datos-chile/main/SKILL.md" `
   -OutFile "$env:USERPROFILE\.claude\skills\ley-datos-chile\SKILL.md"
 ```
 
@@ -129,7 +129,7 @@ When `/seo audit` detects a Chilean site (`.cl` TLD, RUT/SII/CMF/SERNAC signals,
 CLP currency), it spawns `ley-datos-chile` as a conditional subagent and folds the
 compliance score into the unified SEO health report.
 
-### With anonimizar (uhartharper/anonimizador-datos)
+### With anonimizar (carlosuhart/anonimizador-datos)
 
 Audit reports may contain the audited site's PII (responsible party name, email,
 RUT, EPD contact). Before sharing externally:
@@ -209,5 +209,5 @@ MIT — see [LICENSE](LICENSE).
 
 ## Related tools
 
-- [uhartharper/anonimizador-datos](https://github.com/uhartharper/anonimizador-datos) — multi-jurisdiction PII anonymizer (RGPD, Ley 21.719, LGPD, LFPDPPP, Ley 1581, CCPA)
+- [carlosuhart/anonimizador-datos](https://github.com/carlosuhart/anonimizador-datos) — multi-jurisdiction PII anonymizer (RGPD, Ley 21.719, LGPD, LFPDPPP, Ley 1581, CCPA)
 - [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — full SEO audit suite for Claude Code
