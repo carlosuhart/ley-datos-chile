@@ -8,10 +8,9 @@ Chile's Personal Data Protection Law (Ley 21.719, published December 2024) repla
 the previous Ley 19.628 and introduces GDPR-like obligations: explicit consent, seven
 data subject rights (including portability, restriction, and protection from automated
 decisions), mandatory privacy policy content, international transfer rules, breach
-reporting and a voluntary data protection officer. Under the published text it enters into
-force on 1 December 2026; a postponement to 15 October 2027 (Boletín 18.623-07) was
-dispatched by Congress on 17 November 2026 and becomes law only when published in the
-Diario Oficial.
+reporting and a voluntary data protection officer. It enters into force on
+**15 October 2027**, after a postponement law (Boletín 18.623-07, dispatched by Congress on
+17 November 2026) replaced the original date of 1 December 2026.
 
 This Claude Code skill inspects a website externally — no backend access required —
 and produces a scored compliance report with actionable remediation steps and
@@ -175,11 +174,14 @@ externally from what remains unverifiable without backend access.
 
 ## Normative note
 
-Ley 21.719 was published 13 December 2024. Under the published text it enters into force
-on 1 December 2026 (first transitory article). Boletín 18.623-07, dispatched by Congress on
-17 November 2026, moves that date to 15 October 2027 without changing obligations or
-fines; until it is published in the Diario Oficial, the legal date remains 1 December 2026.
-Check diariooficial.interior.gob.cl before quoting a date.
+Ley 21.719 was published 13 December 2024. It enters into force on **15 October 2027**:
+the postponement law (Boletín 18.623-07, dispatched by Congress on 17 November 2026 without
+changes) replaced the original rule of the first transitory article (1 December 2026). It
+does not change obligations or fines; it enlarges the Agency's board from 3 to 5 members
+and keeps the 12-month written-warning regime for small businesses. Until then the
+original Ley 19.628 applies, so an audit is a readiness review, not a finding of a current
+sanctionable breach. The law number and Diario Oficial date were pending as of
+20 November 2026.
 
 **Control authority:** Ley 21.719 creates the **Agencia de Protección de Datos
 Personales**, which starts operating when the law enters into force. The Consejo para la
@@ -196,6 +198,10 @@ All article references were verified against the official BCN text (idNorma 1209
 
 ## Changelog
 
+### v1.3.1 — 2026-11-20
+- **Entry into force moved to 15 October 2027** (postponement law, Boletín 18.623-07);
+  audits are framed as readiness reviews until then
+
 ### v1.3.0 — 2026-11-20
 - **Articles verified against the official BCN text:** information duty (14 ter), security
   (14 quinquies), breach reporting (14 sexies, new check), processor (15 bis), transfers
@@ -206,8 +212,7 @@ All article references were verified against the official BCN text (idNorma 1209
 - **Sensitive data** per Art. 2 g) (adds human biological profile and gender identity);
   children's data has its own regime, not a sensitive category
 - **Fines** without undated USD equivalents; written warning for minor infringements
-- **Entry into force:** 1 December 2026 per the published text, with the status of the
-  postponement bill (Boletín 18.623-07)
+- **Entry into force:** status of the postponement bill (Boletín 18.623-07)
 
 ### v1.2.2 — 2026-10-01
 - Response deadline for data subject requests corrected to 30 calendar days, extendable
